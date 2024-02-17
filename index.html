@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <spane id="haut"></spane>
+  <nav id="nav-menu">
+    <div class="logo">Sarah Beldjoudi</div>
+    <div>
+      <ul class="nav-liens">
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#experience">Expérience</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="nav-hamburger">
+    <div class="logo">Sarah Beldjoudi</div>
+    <div class="menu-hamburger">
+      <div class="icone-hamburger" onclick="basculerMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="liens-menu">
+        <li><a href="#apropos" onclick="basculerMenu()">À propos</a></li>
+        <li><a href="#experience" onclick="basculerMenu()">Expérience</a></li>
+        <li><a href="#projets" onclick="basculerMenu()">Projets</a></li>
+        <li><a href="#contact" onclick="basculerMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section-photo">
+      <img src="./images/photo profile.jpeg" alt="Photo de profil de Sarah Beldjoudi">
+    </div>
+    <div class="section-texte">
+      <p class="section-texte-p1">
+        Salut, je suis
+      </p>
+      <h1 class="titre">Sarah Beldjoudi</h1>
+      <p class="section-texte-p2">Développeuse Front-End</p>
+      <div class="boutton">
+        <button class="boutton1" onclick="window.open('./images/CV_portfolio.pdf')">
+          Téléchargement CV
+        </button>
+        <button class="boutton2" onclick="location.href='./#contact'">
+          Contact
+        </button>
+      </div>
+      <div id="reseaux">
+        <img src="./images/linkedin.png" alt="Profil LinkedIn" class="icone"
+          onclick="location.href='https://www.linkedin.com/in/sarah-beldjoudi-45522a2a0/'">
+        <img src="./images/github.png" alt="Profile Github" class="icone"
+          onclick="location.href='https://github.com/SarahB0307'">
+      </div>
+    </div>
+  </section>
+
+  <section id="apropos">
+    <p class="section-texte-p1">Pour en savoir plus</p>
+    <h1 class="titre">À propos de moi</h1>
+    <div class="section-container">
+      <div class="section-photo">
+        <img src="./images/apropos.jpeg" alt="Photo de profil" class="photo-apropos">
+      </div>
+      <div class="apropos-details">
+        <div class="apropos-container">
+          <div class="details">
+            <img src="./images/experience.png" alt="icone experience" class="icone">
+            <h3>Expérience</h3>
+            <p>6+ mois <br>Développement Frontend</p>
+          </div>
+          <div class="details">
+            <img src="./images/experience.png" alt="icone experience" class="icone">
+            <h3>Education</h3>
+            <p>Licence 2 en Informatique<br>Bac Scientifique</p>
+          </div>
+        </div>
+        <div class="texte">
+          <p>Étudiante en Licence 2 Informatique à Sorbonne Université, je
+            recherche un stage en développement de logiciels. Forte de mes
+            compétences en programmation et en développement web,
+            démontrées à travers des projets académiques concrets, je suis
+            motivée à contribuer à des projets innovants au sein d'une équipe
+            dynamique. Mon objectif est d'appliquer mes connaissances et
+            d'apprendre activement dans le domaine du développement logiciel.</p>
+        </div>
+      </div>
+    </div>
+    <img src="./images/arrow.png" alt="icone fleche" onclick="location.href='./#experience'" class="icone fleche">
+  </section>
+
+  <section id="experience">
+    <p class="section-texte-p1">Découvrez mon</p>
+    <h1 class="titre">Expérience</h1>
+    <div class="experience-details">
+      <div class="apropos-container">
+        <div class="details">
+          <div class="article">
+            <article>
+              <img src="./images/checkmark.png" alt="experience" class="icone">
+              <div>
+                <h3>HTML</h3>
+                <p>Expérimentée</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./images/checkmark.png" alt="experience" class="icone">
+              <div>
+                <h3>CSS</h3>
+                <p>Expérimentée</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./images/checkmark.png" alt="experience" class="icone">
+              <div>
+                <h3>JavaScript</h3>
+                <p>Intermédiaire</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./images/checkmark.png" alt="experience" class="icone">
+              <div>
+                <h3>Bootstrap</h3>
+                <p>Expérimenté</p>
+              </div>
+            </article>
+            <article>
+              <img src="./images/checkmark.png" alt="experience" class="icone">
+              <div>
+                <h3>Java</h3>
+                <p>Intermédiaire</p>
+              </div>
+            </article>
+            <article>
+              <img src="./images/checkmark.png" alt="experience" class="icone">
+              <div>
+                <h3>Python</h3>
+                <p>Intermédiaire</p>
+              </div>
+            </article>
+            <article>
+              <img src="./images/checkmark.png" alt="experience" class="icone">
+              <div>
+                <h3>PHP</h3>
+                <p>Débutante</p>
+              </div>
+            </article>
+            <article>
+              <img src="./images/checkmark.png" alt="experience" class="icone">
+              <div>
+                <h3>SQL</h3>
+                <p>Débutante</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./images/arrow.png" alt="icone fleche" onclick="location.href='./#projets'" class="icone fleche">
+  </section>
+
+  <section id="projets">
+    <p class="section-texte-p1">Parcourez mes</p>
+    <h1 class="titre">Projets</h1>
+    <div class="experience-details">
+      <div class="apropos-container">
+        <div class="details couleur">
+          <div class="article">
+            <img src="./images/projet_portfolio.png" alt="projet portfolio" class="img-projet">
+          </div>
+          <h2 class="titre-projet">Portfolio</h2>
+          <div class="boutton">
+            <button class="boutton1 boutton-projet" onclick="location.href='https://github.com/SarahB0307/portfolio'">
+              Github
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./images/arrow.png" alt="icone fleche" onclick="location.href='./#contact'" class="icone fleche">
+  </section>
+
+  <section id="contact">
+    <p class="section-texte-p1">Entrez en contact</p>
+    <h1 class="titre">Contactez-moi</h1>
+    <div class="infos-contact-haut">
+      <div class="infos-contact">
+        <img src="./images/email.png" alt="icone email" class="icone icone-contact icone-email">
+        <p><a href="mailto:beldjoudi.sarah0307@gmail.com">Example@gmail.com</a></p>
+      </div>
+      <div class="infos-contact">
+        <img src="./images/linkedin.png" alt="icone linkedin" class="icone icone-contact">
+        <p><a href="https://www.linkedin.com/in/sarah-beldjoudi-45522a2a0/" target="_blank">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <nav>
+      <div class="nav-liens-container">
+        <ul class="nav-liens">
+          <li><a href="#apropos">À propos</a></li>
+          <li><a href="#experience">Expérience</a></li>
+          <li><a href="#projets">Projets</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2023 Sarah Beldjoudi. All rights Reserved</p>
+    <img src="./images/arrowUp.png" alt="icone fleche up" onclick="location.href='./#haut'" class="icone up">
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
