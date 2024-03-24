@@ -10,7 +10,7 @@
 /* pour que tout les padding et margin qu'ils y aura sur la page, c'est moi qui va les mettre */
 
 body{
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Poppins", sans-serif;
 }
 
 p {
